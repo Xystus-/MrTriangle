@@ -34,7 +34,7 @@ int main(int argc, char* argv[])
 	glOrtho(-ratio, ratio, -1.f, 1.f, 1.f, -1.f);
 	glMatrixMode(GL_MODELVIEW);	
 	glLoadIdentity();
-	
+	//Xystus waz here
 	
 	while(!glfwWindowShouldClose(window))
 	{
